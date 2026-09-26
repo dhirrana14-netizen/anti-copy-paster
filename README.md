@@ -1,5 +1,23 @@
 # AntiCopyPaster
 
+## My contribution — Dhir Rana
+
+This is my personal fork of AntiCopyPaster, a collaborative IntelliJ IDEA plugin project. My contribution focused on the AI Trust Scoring and Validation UI.
+
+I developed a compact, collapsible panel that:
+- Displays an overall AI Trust score and trust level.
+- Presents five equally weighted components: clone detection, refactoring agent confidence, usefulness, compilation, and testing.
+- Shows progress indicators and verifying, verified, and validation-failure states.
+- Handles unavailable backend scores while keeping the code diff visible.
+
+**[View my merged pull request: AI Trust Scoring and Validation UI #30](https://github.com/refactorings/anti-copy-paster/pull/30)**
+
+This contribution was merged into the original project's `ui_panel` branch. See the [team's UI branch](https://github.com/refactorings/anti-copy-paster/tree/ui_panel) for the integrated work.
+
+---
+
+## Original project documentation
+
 ![GitHub Downloads](https://img.shields.io/github/downloads/refactorings/anti-copy-paster/total)
 
 AntiCopyPaster is a plugin for IntelliJ IDEA that tracks the copying and pasting carried out by the developer and
